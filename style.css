@@ -1,0 +1,106 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    color: rgb(11, 2, 59);
+}
+.pig-face{
+    position: relative;
+    width: 200px;
+    height: 200px;
+   background-color: pink;
+   border: 7px solid black;
+    border-radius: 50%;
+    top: 100px;
+}
+.eye1{
+position: absolute;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: 5px solid black;
+background-color: white;
+left: 32px;
+bottom: 100px;
+
+}
+.eye2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-color: white;
+    right: 32px;
+    bottom: 100px;
+    
+    }
+    .lens1{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: black;
+        left: 12px;
+        bottom: 12px;
+    }
+    .lens2{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: black;
+        left: 12px;
+        bottom: 12px;
+    }
+    .nose{
+        position: absolute;
+        width: 110px;
+        height: 55px;
+        border-radius: 30% 30% 30% 30%;
+        border: 5px solid black;
+        background-color:indianred;
+        left: 41px;
+        bottom: 25px;
+    }
+    .hole1{
+        position: absolute;
+        width: 20px;
+        height: 25px;
+        border-radius: 70%;
+        background-color: black;
+        left: 19px;
+        bottom: 12px;
+    }
+    .hole2{
+        position: absolute;
+        width: 20px;
+        height: 25px;
+        border-radius: 70%;
+        background-color: black;
+        right: 19px;
+        bottom: 12px;
+    }
+    .ear1{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border-radius: 50% 50% 40% 10%;
+        background-color:pink;
+        border: 6px solid black;
+         left: 578px;
+        top: 140px;
+        overflow: hidden;
+    }
+    .ear2{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border-radius: 50% 40% 10% 50%;
+        background-color:pink;
+        border: 6px solid black;
+         right: 578px;
+        top: 140px;
+        
+    }
+    
